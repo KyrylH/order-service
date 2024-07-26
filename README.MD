@@ -1,10 +1,6 @@
 # Order service
 
-This service is implementation of imitation 
-of real order service which use JSP 
-and validation with exception handling
-for validating data to sending data to next service
-for processing this data
+This service mimics a real order processing service very simply. It is built on JSP for front-end development and has validation with exception handling that ensures the integrity of data before it goes to the other service for additional processing.
 
 ## Dependencies
 
