@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: order-service
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+    hiddenmethod:
+      filter:
+        enabled: true
+  liquibase:
+    change-log: db/changelog/db.changelog-master.yaml
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.community.dialect.SQLiteDialect
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+server:
+  port: 8080
+  error:
+    path: /error

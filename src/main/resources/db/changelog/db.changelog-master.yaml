@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Kyrylo Hyliuk
+      changes:
+        - createTable:
+            tableName: orders
+            columns:
+              - column:
+                  name: id
+                  type: INTEGER
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: surname
+                  type: VARCHAR(40)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: product_name
+                  type: VARCHAR(60)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: product_count
+                  type: INT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: sent
+                  type: BIT
+                  defaultValue: false
+                  constraints:
+                    nullable: false
