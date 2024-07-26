@@ -1,4 +1,4 @@
-FROM maven:3.9.8-eclipse-temurin-21-jammy
+FROM maven:3.9.8-eclipse-temurin-21-jammy as builder
 
 WORKDIR /app
 COPY . .
