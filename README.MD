@@ -32,3 +32,6 @@ This service mimics a real order processing service very simply. It is built on 
 ```mvn clean install```
 
 ```mvn spring-boot:run ```
+
+## How to use
+```open in browser localhost:8080```
