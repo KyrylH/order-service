@@ -9,11 +9,11 @@ import org.hibernate.validator.constraints.Length;
 public class OrderRequest {
     @NotNull
     @Length(min = 3, max = 40)
-    String surname;
+    private String surname;
     @NotNull
     @Length(min = 3, max = 60)
-    String productName;
+    private String productName;
     @NotNull
     @Min(1)
-    Integer productCount;
+    private Integer productCount;
 }
