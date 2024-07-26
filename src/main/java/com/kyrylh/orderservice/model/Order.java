@@ -13,9 +13,9 @@ import lombok.Data;
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer id;
-    String surname;
-    String productName;
-    Integer productCount;
-    Boolean sent = false;
+    private Integer id;
+    private String surname;
+    private String productName;
+    private Integer productCount;
+    private Boolean sent = false;
 }

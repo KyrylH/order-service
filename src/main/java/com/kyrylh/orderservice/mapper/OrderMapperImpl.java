@@ -1,4 +1,4 @@
-package com.kyrylh.orderservice.service.mapper;
+package com.kyrylh.orderservice.mapper;
 
 import com.kyrylh.orderservice.model.Order;
 import com.kyrylh.orderservice.model.request.OrderRequest;

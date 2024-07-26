@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class OrderResponse {
-    String surname;
-    String productName;
-    Integer productCount;
+    private String surname;
+    private String productName;
+    private Integer productCount;
 }
