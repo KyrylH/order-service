@@ -8,5 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 public interface OrderMapper {
     Order mapToOrder(OrderRequest request);
+
     OrderResponse mapToResponse(Order order);
 }

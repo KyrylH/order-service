@@ -6,7 +6,7 @@ import com.kyrylh.orderservice.model.response.OrderResponse;
 import org.springframework.stereotype.Component;
 
 @Component
-public class OrderMapperImpl implements OrderMapper{
+public class OrderMapperImpl implements OrderMapper {
     @Override
     public Order mapToOrder(OrderRequest request) {
         Order order = new Order();
